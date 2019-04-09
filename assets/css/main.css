@@ -1828,7 +1828,8 @@ footer .newsletter_form .form-control {
   font-size: 13px;
   padding: 10px;
   text-transform: capitalize;
-  color: #ffffff;
+  /* color: #ffffff; */
+  color: #1d1f34;
 }
 .copyright_footer ul.footer_menu {
   padding: 0;
