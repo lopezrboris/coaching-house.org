@@ -3166,3 +3166,9 @@ textarea.form-control {
 .accordion_card .card-body {
   font-size: 16px;
 }
+
+.contact {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}

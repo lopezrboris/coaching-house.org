@@ -158,5 +158,5 @@ $(document).ready(function() {
             title: 'evento!'
         });
     }
-
+    $('.scrolly').scrolly();
 });
