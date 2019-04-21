@@ -3172,3 +3172,38 @@ textarea.form-control {
   margin: 0;
   padding: 0;
 }
+
+#cvContent{
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;;
+  max-width: 50%;
+  color: #e9e6ea;
+}
+.div-content{
+   display: table;
+   position: relative;;
+   padding: 20px 200px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1500; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+
+  padding-top: 20px;
+}
+
+#caption{
+  color: #f20535;
+  font-weight: bold;
+}

@@ -158,5 +158,37 @@ $(document).ready(function() {
             title: 'evento!'
         });
     }
+    
+$(".zoom-CV").click(function(e){
+    e.preventDefault();
+    var modal = document.getElementById('myModal');
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    var content = document.getElementById("cvContent");
+    /*$(this).click(function(){*/
+        modal.style.display = "block";
+        if($(this).hasClass("zoom-pic")){
+          modalImg.src = $(this).attr("src");
+          $(content).toggle(false);
+          $(modalImg).toggle(true);
+        }
+        else{
+          $(content).html($(this).attr("content"));// contentText.html = $(this).attr("content");
+          $(modalImg).toggle(false);
+          $(content).toggle(true);
+        }
+  
+        captionText.innerHTML = $(this).attr("alt"); //this.alt;
+    //});
+  
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+  
+    // When the user clicks on <span> (x), close the modal
+    modal.onclick = function() {
+        modal.style.display = "none";
+    }
+  });
+
     $('.scrolly').scrolly();
 });
