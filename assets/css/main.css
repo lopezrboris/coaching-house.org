@@ -3184,7 +3184,7 @@ textarea.form-control {
 .div-content{
    display: table;
    position: relative;;
-   padding: 20px 200px;
+   /* padding: 20px 200px; */
 }
 
 /* The Modal (background) */
