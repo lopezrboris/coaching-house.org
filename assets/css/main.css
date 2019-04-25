@@ -137,7 +137,7 @@ ul.nosyely_list {
   display: inline-block;
   padding: 25px;
   min-width: 120px;
-  background-color: #F44336;
+  background-color: #de1f3c;
   color: #ffffff;
   font-size: 48px;
   font-weight: 600;
@@ -1647,7 +1647,7 @@ header .logo {
 }
 header .logo img {
   float: left;
-  max-width: 160px;
+  max-width: 240px;
   margin-right: 3px;
 }
 header ul.menu li a.nav-link {
@@ -3208,4 +3208,16 @@ textarea.form-control {
 #caption{
   color: #f20535;
   font-weight: bold;
+}
+
+.footer_box > img {
+  float: left;
+  margin: 0 20px 20px 0;
+  width: 194px;
+  height: 100px;
+}
+
+.footer_box > p {
+  text-align: justify;
+  text-indent: 2em;
 }
