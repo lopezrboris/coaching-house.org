@@ -2127,10 +2127,11 @@ Cover
   padding: 0;
   margin: 0 auto;
   top: -40px;
-  max-width: 100%;
+  /* max-width: 100%; */
+  max-width: 85%;
 }
 .cover_nav .cover_dots {
-  padding: 15px 90px;
+  padding: 15px 45px;
   margin: 0 auto;
   text-align: center;
   float: none;
@@ -2276,6 +2277,11 @@ Cover
   color: #f50136;
 }
 
+@media (max-width: 400px) {
+  .navbar-brand img{
+    max-width: 215px !important;
+  }
+}
 @media (max-width: 767px) {
   .cover_slider .cover_item .slider_content .slider-content-inner .cover-title {
     font-size: 18px;
