@@ -2131,7 +2131,7 @@ Cover
   max-width: 85%;
 }
 .cover_nav .cover_dots {
-  padding: 15px 45px;
+  padding: 15px 30px;
   margin: 0 auto;
   text-align: center;
   float: none;
@@ -2279,7 +2279,7 @@ Cover
 
 @media (max-width: 400px) {
   .navbar-brand img{
-    max-width: 215px !important;
+    max-width: 210px !important;
   }
 }
 @media (max-width: 767px) {
